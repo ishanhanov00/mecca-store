@@ -1,4 +1,4 @@
-"""
+ """
 Проверка Telegram WebApp initData на сервере.
 
 Клиент присылает initData (строку) в заголовке X-Telegram-Init-Data.
