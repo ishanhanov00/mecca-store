@@ -1,12 +1,10 @@
-"""
-Модели базы данных.
+"""Модели базы данных.
 
 Таблицы: users, categories, products, orders, order_items,
 inventory_transactions, settings.
 
 Мультиязычные поля (название/описание товаров и категорий) хранятся как JSON
-вида {"ru": "...", "uz": "...", "ar": "...", "en": "..."}.
-"""
+вида {"ru": "...", "uz": "...", "ar": "...", "en": "..."}."""
 import enum
 from datetime import datetime
 
